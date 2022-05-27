@@ -272,6 +272,28 @@ color: black;
 .stoim {
     height: 125vh;
 }
+
+.den {
+    height: 110vh;
+}
+
+.den1
+{
+    position: absolute;
+width: 570px;
+height: 800px;
+left: 350px;
+top: 250px;
+}
+
+.den2
+{
+    position: absolute;
+width: 570px;
+height: 800px;
+left: 950px;
+top: 250px;
+}
 .oteltext2mal
 {
     position: absolute;
@@ -354,18 +376,27 @@ left: 330px;
 top: 200px;
 }
 
+.resp_slider{
+    position: absolute;
+    width: 1700px;
+    height: 1000px;
+left: 150px;
+top: 200px;
+}
+
 
 .photo
 {
     width: 756px;
 height: 542px;
 left: 500px;
+
 /* background-repeat: no-repeat;
 background-size: cover; */
 }
 
 .otzyv{
-    background-color: pink;
+    
 }
 
 .prev,
@@ -391,4 +422,38 @@ top: 300px;
 
 border-radius: 32.5839px;
 box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+.resp_slide
+{
+    height: 100vh;
+}
+.slide
+{
+    margin: 0 auto
+}
+
+.sectpodval
+{
+    position: absolute;
+    width: 1908px;
+    height: 150px;
+    left: 0px;
+    top: 6200px;
+    
+}
+
+.podval
+{
+    height: 20vh;
+    background: rgba(215, 196, 69, 0.6);
+    border-radius: 51px;
+}
+
+.Whats
+{
+    position: absolute;
+width: 310px;
+height: 80px;
+left: 230px;
+top: 70px;
 }

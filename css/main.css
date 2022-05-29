@@ -455,4 +455,12 @@ left: 230px;
 top: 70px;
 }
 
+.cena
+{
+    position: absolute;
+width: 185px;
+height: 90px;
+left: 370px;
+top: 330px;
 
+}

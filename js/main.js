@@ -27,3 +27,14 @@ prevArrow: "<img src='/slick/fonts/prev.png' class='prev' alt='1'>",
   nextArrow: "<img src='/slick/fonts/next.png' class='next' alt='2'>",
   })
 })
+
+
+$('.aniview').AniView();
+
+var options = {
+  animateClass: 'animate__animated', // for v3 or 'animate__animated' for v4
+  animateThreshold: 100,
+  scrollPollInterval: 20
+}
+
+$('.aniview').AniView(options);

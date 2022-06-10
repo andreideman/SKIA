@@ -164,7 +164,7 @@ footer {
     position: absolute;
 width: 854px;
 height: 854px;
-left: 1200px;
+left: 900px;
 top: 200px;
 }
 
@@ -274,26 +274,53 @@ color: black;
 }
 
 .den {
-    height: 110vh;
+    height: 140vh;
 }
 
 .den1
 {
     position: absolute;
-width: 570px;
-height: 800px;
-left: 350px;
+width: 400px;
+height: 600px;
+left: 150px;
 top: 250px;
 }
 
 .den2
 {
     position: absolute;
-width: 570px;
-height: 800px;
+    width: 400px;
+    height: 600px;
+left: 550px;
+top: 250px;
+}
+
+.den3
+{
+    position: absolute;
+    width: 400px;
+    height: 600px;
 left: 950px;
 top: 250px;
 }
+.den4
+{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+left: 1350px;
+top: 250px;
+}
+
+.den5
+{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+left: 750px;
+top: 800px;
+}
+
 .oteltext2mal
 {
     position: absolute;
@@ -395,9 +422,6 @@ left: 500px;
 background-size: cover; */
 }
 
-.otzyv{
-    
-}
 
 .prev,
 .next {
@@ -438,7 +462,7 @@ box-shadow: 0 0 30px rgba(0,0,0,0.5);
     width: 1908px;
     height: 150px;
     left: 0px;
-    top: 6200px;
+    top: 6500px;
     
 }
 
@@ -456,4 +480,518 @@ width: 310px;
 height: 80px;
 left: 230px;
 top: 70px;
+}
+
+.cena
+{
+    position: absolute;
+width: 185px;
+height: 90px;
+left: 370px;
+top: 330px;
+
+}
+
+
+@media screen and (max-width: 450px) {
+    
+body {
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-size: 48px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400px;
+}
+
+.container {
+    /* width: 1200px; */
+    margin: 0 auto;
+    /* border: 1px solid red; */
+position: absolute;
+width: 1908px;
+height: 166px;
+left: -5px;
+top: -37px;
+background: rgba(215, 196, 69, 0.6);
+border-radius: 51px;
+}
+
+.cont {
+    /* width: 1200px; */
+    margin: 0 auto;
+    /* border: 1px solid red; */
+position: absolute;
+width: 1908px;
+height: 166px;
+left: -5px;
+top:auto ;
+background: rgba(215, 196, 69, 0.6);
+border-radius: 51px;
+box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 auto;
+}
+
+h1 {
+position: absolute;
+width: 506px;
+height: 234px;
+left: 400px;
+top: 320px;
+
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 59px;
+
+}
+
+h2 {
+    font-style: italic;
+font-weight: 700;
+font-size: 48px;
+line-height: 59px;
+text-align: center;
+
+color: #000000;
+
+position: absolute;
+width: 470px;
+height: 47px;
+left: 700px;
+margin-top: 47px;
+}
+
+.nav-logo{
+    position: absolute;
+    width: 140px;
+    height: 46px;
+    left: 350px;
+    top: 70px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #D7C445;
+}
+
+.nav 
+{
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+
+position: absolute;
+width: 851px;
+height: 46px;
+left: 770px;
+top: 90px;
+
+}
+
+.nav-link
+{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color .2s linear;
+    color:black;
+    top: 56px;
+}
+
+.nav-link:hover{
+    color:#D7C445
+}
+
+.header {
+    width: 100%;
+    height: 80vh;
+}
+
+.glavkar{
+    position: absolute;
+width: 551px;
+height: 360px;
+left: 950px;
+top: 230px;
+}
+
+section
+{
+    width: 100%;
+    height: 80vh;
+}
+
+.zagolovok
+{
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    
+    color: #000000;
+    
+    position: absolute;
+    width: 470px;
+    height: 47px;
+    left: 700px;
+    margin-top: 49px;
+}
+
+footer {
+    width: 100%;
+    height: 100vh;
+}
+
+.prepofot
+{
+    border-radius: 100%;
+    position: absolute;
+width: 854px;
+height: 854px;
+left: 900px;
+top: 200px;
+}
+
+.prepod
+{
+    height: 110vh;
+}
+
+.imya
+{
+    position: absolute;
+    width: 750px;
+    height: 47px;
+    left: 200px;
+    top: 280px;
+
+    font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+
+color: #000000;
+}
+
+.dostiz-blok
+{
+    font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+
+position: absolute;
+width: 590px;
+height: 448px;
+left: 270px;
+top: 370px;
+}
+
+.inst
+{
+position: absolute;
+width: 217px;
+height: 40px;
+left: 280px;
+top: 880px;
+}
+
+.insttext
+{
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #000000;
+
+position: absolute;
+left: 23%;
+right: 320%;
+top: 30%;
+bottom: -50%;
+}
+
+.oteltext1 
+{
+    position: absolute;
+    width: 900px;
+    height: 100px;
+    left: 600px;
+    top: 200px;
+
+    font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 59px;
+
+color: #D7C445;
+}
+
+.oteltext1mal
+{
+    position: absolute;
+    width: 900px;
+    height: 100px;
+    left: 690px;
+    top: 250px;
+
+    font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 59px;
+
+color: black;
+}
+
+.otel
+{
+    height: 135vh;
+}
+
+.stoim {
+    height: 125vh;
+}
+
+
+.prepod
+{
+    height: 120vh;
+}
+.den {
+    height: 160vh;
+}
+
+.den1
+{
+    position: absolute;
+width: 400px;
+height: 600px;
+left: 150px;
+top: 250px;
+}
+
+.den2
+{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+left: 550px;
+top: 250px;
+}
+
+.den3
+{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+left: 950px;
+top: 250px;
+}
+.den4
+{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+left: 1350px;
+top: 250px;
+}
+
+.den5
+{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+left: 750px;
+top: 800px;
+}
+
+.oteltext2mal
+{
+    position: absolute;
+    width: 900px;
+    height: 100px;
+    left: 780px;
+    top: 350px;
+
+    font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 59px;
+
+color: black;
+}
+
+.oteltext3
+{
+    position: absolute;
+    width: 900px;
+    height: 100px;
+    left: 860px;
+    top: 640px;
+
+    font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 59px;
+
+color: #D7C445;
+}
+
+.oteltext4
+{
+    position: absolute;
+    width: 900px;
+    height: 100px;
+    left: 800px;
+    top: 940px;
+
+    font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 59px;
+
+color: #D7C445;
+}
+
+.oteltext4mal
+{
+    position: absolute;
+    width: 900px;
+    height: 100px;
+    left: 750px;
+    top: 990px;
+
+    font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 59px;
+
+color: black;
+}
+
+.fotootel
+{
+    position: absolute;
+width: 1000px;
+height: 1000px;
+left: -150px;
+top: 185px;
+border-radius: 100%;
+}
+
+.rev_slider{
+    position: absolute;
+    width: 1300px;
+    height: 542px;
+left: 330px;
+top: 200px;
+}
+
+.resp_slider{
+    position: absolute;
+    width: 1700px;
+    height: 1000px;
+left: 150px;
+top: 200px;
+}
+
+
+.photo
+{
+    width: 756px;
+height: 542px;
+left: 500px;
+
+/* background-repeat: no-repeat;
+background-size: cover; */
+}
+
+
+.prev,
+.next {
+  position: absolute;
+  top: 40%;
+  height: 60px;
+  width: 60px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.next {
+  right: 0;
+}
+
+.fotostoim{
+    position: absolute;
+width: 1179px;
+height: 746px;
+left: 351px;
+top: 300px;
+
+border-radius: 32.5839px;
+box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+.resp_slide
+{
+    height: 100vh;
+}
+.slide
+{
+    margin: 0 auto
+}
+
+.sectpodval
+{
+    position: absolute;
+    width: 1908px;
+    height: 150px;
+    left: 0px;
+    top: 6400px;
+    
+}
+
+.podval
+{
+    height: 20vh;
+    background: rgba(215, 196, 69, 0.6);
+    border-radius: 51px;
+}
+
+.Whats
+{
+    position: absolute;
+width: 310px;
+height: 80px;
+left: 230px;
+top: 70px;
+}
+
+.cena
+{
+    position: absolute;
+width: 185px;
+height: 90px;
+left: 370px;
+top: 330px;
+
+}
+
 }
